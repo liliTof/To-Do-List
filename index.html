@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
+
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <h1 class="title">stuff i need to do</h1>
@@ -12,9 +14,9 @@
     <div class="all-tasks">
         <h2 class="task-list-title">My list</h2>
         <ul class="task-list">
-            <li class="active-list">YouTube</li>
-            <li>Work</li>
-            <li>Grocery</li>
+            <li class="active-list list-name">YouTube</li>
+            <li class="list-name">Work</li>
+            <li class="list-name">Grocery</li>
         </ul>
 
         <form action="">
@@ -25,7 +27,7 @@
             aria-label="new list name"
             />
             <button 
-                class="btn list" 
+                class="btn create" 
                 area-label="create new list">
                 +
             </button>
@@ -34,7 +36,7 @@
 
     <div class="todo-list">
         <div class="todo-header">
-            <h2 class="list-title"></h2>
+            <h2 class="list-title">YouTube</h2>
             <p class="task-count">3 tasks remaining</p>
         </div>
 
@@ -58,7 +60,7 @@
                         id="task-2">
                     <label for="task-2">
                         <span class="custom-checkbox"></span>
-                        record todo list video</label>
+                        another task</label>
                 </div>
                 <!-- /task 3 -->
                 <div class="task">
@@ -68,19 +70,19 @@
                         id="task-3">
                     <label for="task-3">
                         <span class="custom-checkbox"></span>
-                        record todo list video</label>
+                        a third task</label>
                 </div>
             </div>
             <div class="new-task-creator">
                 <form action="">
                     <input 
                     type="text"
-                    class="new list"
+                    class="new task"
                     placeholder="new task name"
                     aria-label="new task name"
                     />
                     <button 
-                        class="btn task" 
+                        class="btn create" 
                         area-label="create new task">
                         +
                     </button>
